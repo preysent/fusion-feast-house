@@ -1,7 +1,13 @@
-body {
-  font-family: 'Abhaya Libre', serif;
-  font-family: 'Noto Serif', serif;
-  font-family: 'PT Sans Caption', sans-serif;
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Rubik:wght@500&family=Spline+Sans&display=swap');
+
+
+
+*{
+ 
+  font-family: 'Spline Sans', sans-serif;
+  font-family: 'Rubik', sans-serif;
+  font-family: 'DM Serif Display', serif;
 
 }
 
