@@ -3,7 +3,7 @@ import Main from './components/Main.js';
 
 function App() {
   return (
-    <div >
+    <div className='bg-[#3B0F0A] min-h-screen'>
       <Main />
     </div>
   );
