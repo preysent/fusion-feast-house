@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Noto+Serif:wght@600&family=PT+Sans+Caption:wght@400;700&display=swap');
+
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body,html{
+    background-image:linear-gradient(0deg, rgba(3.000000058673322, 0, 0, 1) 0%,rgba(12.000000234693289, 5.000000176951289, 5.000000176951289, 1) 100%) ;
+	width:825px;
+	height:805px;
+}
