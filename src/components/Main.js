@@ -7,7 +7,7 @@ const Main = () => {
         <>
             {/* <Navbar /> */}
             <div className='container m-auto'>
-                <AboutCart/>            
+                {/* <AboutCart/>             */}
             </div>
 
         </>
