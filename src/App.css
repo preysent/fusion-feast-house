@@ -9,3 +9,8 @@ body,html{
 	
     background-color: #110406;
 }
+
+
+.scrollbar-d-none::-webkit-scrollbar {
+    background-color: transparent;
+}

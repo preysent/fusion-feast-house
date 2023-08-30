@@ -4,13 +4,13 @@ import mehuImgSrc from '../../assests/image 8.png'
 
 const AboutCart = () => {
     return (
-        <div>
-            <div className=' text-white'>
+        <>
+            <div className=' text-white mb-8'>
 
                 {/* about cart  */}
                 <div className='flex h-fit flex-wrap md:flex-nowrap justify-center'>
 
-                    <img className='md:max-w-[50%] w-full  object-cover' src={aboutImgSrc} />
+                    <img className='md:max-w-[50%] w-full  object-cover' src={aboutImgSrc} alt="food Img"/>
 
                     <div className='p-16 py-8 max-w-xl'>
                         <p className='opacity-50 text-xl mb-3'> first best selling food in mumbai </p>
@@ -30,7 +30,7 @@ const AboutCart = () => {
                 {/* menu cart  */}
                 <div className='flex h-fit flex-wrap md:flex-nowrap justify-between md:flex-row-reverse'>
 
-                    <img className='md:max-w-[50%]  w-full   object-cover' src={mehuImgSrc} />
+                    <img className='md:max-w-[50%]  w-full   object-cover' src={mehuImgSrc} alt="food Img"/>
 
 
                     <div className='p-16 py-8 max-w-xl opacity-90'>
@@ -84,7 +84,7 @@ const AboutCart = () => {
 
 
             </div>
-        </div>
+        </>
     )
 }
 
