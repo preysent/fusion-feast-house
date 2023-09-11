@@ -12,7 +12,7 @@ const Team = () => {
                 <h5 className='opacity-80 mb-9 capitalize'>fusion feast house's dream team of passinate chefs and warm-harted stuff unit to craft extraordinary culinary experiances. where globel flaver and createvity hamorize. leaving patrons enchanted.</h5>
                
                 <button className='p-2 px-3 bg-slate-500/[.3] capitalize'>
-                    <i class="ri-arrow-right-s-line"></i>
+                    <i className="ri-arrow-right-s-line"></i>
                     Know more about our team
                 </button>
             </div>

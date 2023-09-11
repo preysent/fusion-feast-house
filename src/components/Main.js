@@ -8,7 +8,7 @@ import Gallery from './main/Gallery'
 const Main = () => {
     return (
         <>
-            {/* <Navbar /> */}
+            <Navbar />
             <div className='container m-auto'>
                 <AboutCart/>
                 <Party/>

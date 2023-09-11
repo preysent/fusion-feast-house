@@ -44,7 +44,7 @@ const Gallery = () => {
 
             <div className='flex justify-center mb-10'>
                 <button className='p-2 px-3 bg-slate-500/[.3] capitalize '>
-                    <i class="ri-arrow-right-s-line"></i>
+                    <i className="ri-arrow-right-s-line"></i>
                     Know more about our team
                 </button>
             </div>

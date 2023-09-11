@@ -5,7 +5,7 @@ import mehuImgSrc from '../../assests/image 8.png'
 const AboutCart = () => {
     return (
         <>
-            <div className=' text-white mb-8'>
+            <div className=' text-white m-8'>
 
                 {/* about cart  */}
                 <div className='flex h-fit flex-wrap md:flex-nowrap justify-center'>
@@ -18,7 +18,7 @@ const AboutCart = () => {
                         <h5 className='opacity-80 mb-2'>A culinary adventure with harmonious global flavors. creativity and warm ambiance.</h5>
                         <p className='opacity-80 capitalize mb-8'>book table and look how to play with fire!</p>
                         <button className='p-2 px-3 bg-slate-500/[.3] capitalize'>
-                            <i class="ri-arrow-right-s-line"></i>
+                            <i className="ri-arrow-right-s-line"></i>
                             learn more about us
                         </button>
 
@@ -39,6 +39,7 @@ const AboutCart = () => {
 
 
                         <table className=' w-full capitalize mb-9'>
+                            <tbody>
                             <tr>
                                 <td className='p-2'>global fusion roll</td>
                                 <td className='p-2 opacity-50'>4 Piece </td>
@@ -59,16 +60,17 @@ const AboutCart = () => {
                                 <td className='p-2 opacity-50'>1 bowl </td>
                                 <td className='p-2'>100$</td>
                             </tr>
+                            </tbody>
                         </table>
 
 
                         <button className='p-2 px-3 bg-slate-500/[.3] capitalize mx-2 pr-4'>
-                            <i class="ri-arrow-right-s-line"></i>
+                            <i className="ri-arrow-right-s-line"></i>
                             check whole menu
                         </button>
 
                         <button className='p-2 px-3 bg-slate-500/[.3] capitalize mx-2 pr-4'>
-                            <i class="ri-arrow-right-s-line"></i>
+                            <i className="ri-arrow-right-s-line"></i>
                             order food
                         </button>
 

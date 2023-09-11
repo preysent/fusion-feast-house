@@ -14,3 +14,6 @@ body,html{
 .scrollbar-d-none::-webkit-scrollbar {
     background-color: transparent;
 }
+#home{
+    background: linear-gradient(46deg, #030303, #3c4047);
+}

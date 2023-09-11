@@ -19,10 +19,10 @@ const Party = () => {
 
                 <div className='flex gap-10'>
                     <button className='flex justify-center items-center w-10 h-10 relative rotate-45 bg-gradient-to-bl from-white'>
-                        <i class="ri-arrow-left-s-line rotate-[-45deg] "></i>
+                        <i className="ri-arrow-left-s-line rotate-[-45deg] "></i>
                     </button>
                     <button className=' flex justify-center items-center w-10 h-10 relative rotate-45 bg-gradient-to-tr from-white'>
-                        <i class="ri-arrow-right-s-line rotate-[-45deg]"></i>
+                        <i className="ri-arrow-right-s-line rotate-[-45deg]"></i>
                     </button>
 
 
@@ -81,7 +81,7 @@ const Party = () => {
             </div>
 
             <button className='p-2 px-3 mx-6 bg-slate-500/[.3] capitalize'>
-                <i class="ri-arrow-right-s-line"></i>
+                <i className="ri-arrow-right-s-line"></i>
                 check all partyes
             </button>
         </div>
