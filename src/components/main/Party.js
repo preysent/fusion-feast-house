@@ -8,20 +8,20 @@ import slider6 from '../../assests/slider6.png'
 
 const Party = () => {
     return (
-        <div className='text-white p-12'>
+        <div className='text-white md:p-12 p-4'>
 
             <h5 className='opacity-50'>crasy party</h5>
 
-            <div className='flex w-[80%]  px-12 py-3 text-3xl uppercase items-center opacity-90 mb-12'>
+            <div className='flex w-full md:w-[80%]  md:px-12 py-3 text-2xl uppercase items-center justify-between  opacity-90 mb-12'>
                 <h2 className='px-2'>our parties</h2>
 
-                <div className='h-[2px] w-10 flex-grow bg-gradient-to-r from-white'></div>
+                <div className='h-[2px] w-10 flex-grow bg-gradient-to-r from-white '></div>
 
                 <div className='flex gap-10'>
-                    <button className='flex justify-center items-center w-10 h-10 relative rotate-45 bg-gradient-to-bl from-white'>
+                    <button className='flex justify-center items-center w-7 md:h-10 h-7 md:w-10 relative rotate-45 bg-gradient-to-bl from-white'>
                         <i className="ri-arrow-left-s-line rotate-[-45deg] "></i>
                     </button>
-                    <button className=' flex justify-center items-center w-10 h-10 relative rotate-45 bg-gradient-to-tr from-white'>
+                    <button className=' flex justify-center items-center w-7 md:h-10 h-7 md:w-10 relative rotate-45 bg-gradient-to-tr from-white'>
                         <i className="ri-arrow-right-s-line rotate-[-45deg]"></i>
                     </button>
 

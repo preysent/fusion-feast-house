@@ -5,7 +5,7 @@ import mehuImgSrc from '../../assests/image 8.png'
 const AboutCart = () => {
     return (
         <>
-            <div className=' text-white m-8'>
+            <div id='card' className=' text-white m-8'>
 
                 {/* about cart  */}
                 <div className='flex h-fit flex-wrap md:flex-nowrap justify-center'>

@@ -9,7 +9,7 @@ const Main = () => {
     return (
         <>
             <Navbar />
-            <div className='container m-auto relative'>
+            <div className='container m-auto relative overflow-x-hidden w-full'>
                 <AboutCart/>
                 <Party/>
                 <Team/>
