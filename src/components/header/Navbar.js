@@ -6,17 +6,17 @@ import bg from '../../assests/Group 92.png'
 const Navbar = () => {
   return (
     <div id="home" className='h-[100vh] w-full flex flex-col items-center'>
-      <nav className='p-2 h-[30%] text-center w-full bg-opacity-50 flex items-center justify-evenly'>
+      <nav className='p-2 h-[15%] md:h-[25%] text-center w-full flex items-center justify-between px-6 bg-slate-200  bg-opacity-5'>
 
-        <img src={logo} alt='logo' />
+        <img className='h-full object-contain' src={logo} alt='logo' />
 
         <div className='flex gap-5'>
-          <button className='uppercase border-2 border-slate-100 p-4 text-3xl text-white bg-slate-500'>book table</button>
+          <button className='uppercase border-2 border-slate-100 p-4 text-3xl text-white bg-slate-500 hidden md:flex'>book table</button>
 
-          <button className='uppercase border-2 border-slate-100 p-4 text-3xl text-white bg-slate-500'>order delivery</button>
+          <button className='uppercase border-2 border-slate-100 p-4 text-3xl text-white bg-slate-500 mx-8 hidden md:flex'>order delivery</button>
 
 
-          <button className='uppercase border-2 border-slate-100 p-1 font-bold text-5xl text-white bg-slate-500 w-[4rem] h-[4rem] rotate-45 mx-8'>
+          <button className='uppercase border-2 border-slate-100 md:p-1 font-bold text-5xl text-white bg-slate-500 w-[3rem] md:w-[4rem] h-[3rem] md:h-[4rem] rotate-45 '>
             <p className='rotate-[-45deg]'>=</p>
           </button>
 
@@ -27,8 +27,8 @@ const Navbar = () => {
 
       <div className=' flex h-[70vh]'>
         <div className='text-white w-fit p-3 uppercase'>
-          <h2 className=' text-6xl scale-y-150 pl-5 mt-28'>fusion of culinary</h2>
-          <div className='text-4xl flex flex-col gap-6 m-6 ml-[50%]'>
+          <h2 className=' text-4xl md:text-6xl scale-y-150 pl-5 mt-28'>fusion of culinary</h2>
+          <div className='text-2xl md:text-4xl flex flex-col gap-6 m-6 ml-[50%]'>
             <h5>excellence</h5>
             <h5>flavours</h5>
             <h5>joy</h5>
@@ -41,7 +41,7 @@ const Navbar = () => {
             <p className='opacity-60 text-sm'>scroll down</p>
           </div>
         </div>
-        <img className='object-contain w-5/12 scale-125' src={bg} alt="bh-img" />
+        <img className='object-contain w-5/12 scale-[1.1] hidden md:flex' src={bg} alt="bh-img" />
 
       </div>
     </div>

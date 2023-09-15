@@ -12,7 +12,7 @@ const AboutCart = () => {
 
                     <img className='md:max-w-[50%] w-full  object-cover' src={aboutImgSrc} alt="food Img"/>
 
-                    <div className='p-16 py-8 max-w-xl'>
+                    <div className='md:p-16 p-4 py-8 max-w-xl'>
                         <p className='opacity-50 text-xl mb-3'> first best selling food in mumbai </p>
                         <h2 className='uppercase text-[2.5rem] mb-4 opacity-90 leading-10'>fusion fest <br /> house</h2>
                         <h5 className='opacity-80 mb-2'>A culinary adventure with harmonious global flavors. creativity and warm ambiance.</h5>
@@ -33,7 +33,7 @@ const AboutCart = () => {
                     <img className='md:max-w-[50%]  w-full   object-cover' src={mehuImgSrc} alt="food Img"/>
 
 
-                    <div className='p-16 py-8 max-w-xl opacity-90'>
+                    <div className='md:p-16 p-4 py-8 max-w-xl opacity-90'>
                         <p className='opacity-50 text-xl mb-6'> blending globel flavors with creative twists </p>
                         <h2 className='uppercase text-4xl mb-4 opacity-90 leading-10'>our menu</h2>
 
@@ -64,12 +64,12 @@ const AboutCart = () => {
                         </table>
 
 
-                        <button className='p-2 px-3 bg-slate-500/[.3] capitalize mx-2 pr-4'>
+                        <button className='p-2 px-3 bg-slate-500/[.3] capitalize mx-2 pr-4 my-1'>
                             <i className="ri-arrow-right-s-line"></i>
                             check whole menu
                         </button>
 
-                        <button className='p-2 px-3 bg-slate-500/[.3] capitalize mx-2 pr-4'>
+                        <button className='p-2 px-3 bg-slate-500/[.3] capitalize mx-2 pr-4 my-1'>
                             <i className="ri-arrow-right-s-line"></i>
                             order food
                         </button>

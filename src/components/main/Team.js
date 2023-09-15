@@ -2,7 +2,7 @@ import React from 'react'
 
 const Team = () => {
     return (
-        <div className='text-white bg-[#2e2a2a] rounded-[3rem] lg:py-14 lg:px-20 p-5 border-4 border-[#817f7f] flex flex-wrap lg:flex-nowrap m-4 mb-10' >
+        <div className='text-white bg-[#2e2a2a] rounded-[3rem] lg:py-14 lg:px-20 md:p-5 p-1 border-4 border-[#817f7f] flex flex-wrap lg:flex-nowrap m-4 mb-10' >
 
             <div className='w-full h-full md:w-1/2  p-10'>
                 <p className='opacity-50 text-lg mb-10 capitalize'> here they are </p>
@@ -18,7 +18,7 @@ const Team = () => {
             </div>
 
 
-            <div className='w-full h-full md:w-1/2 p-3 px-9 grid grid-cols-3 gap-6'>
+            <div className='w-full h-full md:w-1/2 p-3 px-9 grid md:grid-cols-3 grid-cols-2 gap-6'>
                 
                 <div className='border-[3px] border-[#9e9e9e] rounded-3xl overflow-hidden'>
                     <img className='object-cover' src='https://i.pinimg.com/236x/e4/c5/9f/e4c59fdbb41ccd0f87dc0be871d91d98.jpg' alt='char'/>
